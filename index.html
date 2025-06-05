@@ -69,13 +69,17 @@
 
   <section id="contact" class="container contact-section fade-in">
     <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/xeokoygg"
-    method="POST">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <form action="https://formspree.io/f/xeokoygg" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+  
+  <input type="hidden" name="_subject" value="New message from portfolio site">
+  
+  <button type="submit">Send Message</button>
+</form>
+
     <div class="contact-details">
       <p>Email: <a href="mailto:dkahiaia@uwo.ca">dkahiaia@uwo.ca</a></p>
       <p>GitHub: <a href="https://github.com/dikohd6" target="_blank">github.com/dikohd6</a></p>
