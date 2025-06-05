@@ -117,38 +117,6 @@ header {
   font-size: 15px;
 }
 
-/* Contact */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.contact-form input, .contact-form textarea {
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
-.contact-form button {
-  background: #0c192c;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.contact-form button:hover {
-  background: #1d3557;
-}
-
-.contact-details p {
-  margin: 8px 0;
-}
 
 /* Fade-in Animation */
 .fade-in {
